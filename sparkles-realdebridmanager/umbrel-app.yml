@@ -1,6 +1,6 @@
 manifestVersion: 1
 id:  sparkles
-name: Realdebridmanager
+name: realdebridmanager
 category: Developer Tools
 version: "0.0.5"
 tagline: Ghost is a free and open source blogging platform written in JavaScript
