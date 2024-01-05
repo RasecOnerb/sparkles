@@ -6,8 +6,17 @@ services:
     environment:
       APP_HOST: sparkles-realdebridmanager_1
       APP_PORT: 5000
-    
+      
   server:
     image: hyperbunny77/realdebridmanager:2022.06.27
     user: "1000:1000"
     init: true
+    
+ environment:
+      - rdmport=5000   
+    ports:
+      - 5000:5000/tcp 
+    volumes:
+      - torrent_folder_to_watch:/watch
+      - path_for_config_storage:/config
+    restart: unless-stopped
