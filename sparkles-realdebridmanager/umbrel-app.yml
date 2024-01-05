@@ -1,30 +1,23 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
-category: Development
-version: "1.0.0"
-port: 5000
-description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
-  Add what's new in the latest version of your app here.
+id:  sparkles-realdebridmanager
+name: Realdebridmanager
+category: Developer Tools
+version: "0.0.5"
+tagline: Ghost is a free and open source blogging platform written in JavaScript
+icon: https://i.imgur.com/5RJJOqw.png
+description: >
+  Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.
+developer: ghost
+website: https://github.com/TryGhost/Ghost
 dependencies: []
+repo: https://github.com/TryGhost/Ghost
+support: https://github.com/TryGhost/Ghost/issues
+port: 5000
+gallery:
+  - https://user-images.githubusercontent.com/353959/169805900-66be5b89-0859-4816-8da9-528ed7534704.png
 path: ""
-defaultUsername: ""
 defaultPassword: ""
+releaseNotes: >
+
+submitter:  sparkles-realdebridmanager
+submission:
